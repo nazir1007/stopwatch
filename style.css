@@ -1,0 +1,68 @@
+/* CSS for body  */
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+/* CSS for heading tag */
+h1 {
+  color: brown;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* CSS for time-container */
+.digit {
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.txt {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* CSS for button Container */
+#btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* CSS for buttons */
+.btn {
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px 25px;
+  font-size: 20px;
+  margin: 0px 10px;
+  border: 0px;
+  cursor: pointer;
+}
+
+/* CSS for start button hovering and Color */
+#start:hover {
+  border: 2px solid black;
+  background-color: yellowgreen;
+  color: black;
+}
+
+/* CSS for stop button hovering and Color*/
+#stop:hover {
+  border: 2px solid black;
+  background-color: #3498db;
+  color: aliceblue;
+}
+
+/* CSS for reset button hovering and Color */
+#reset:hover {
+  border: 2px solid black;
+  background-color: #e74c3c;
+  color: #000;
+}
